@@ -2071,8 +2071,13 @@ a:focus {
 
 .text {
     color: #ffffff !important;
+}
+
+.text-mobile {
+    color: #ffffff !important;
     display: none;
 }
+
 
 @media (max-width: 991.98px) {
     .text-mobile {
