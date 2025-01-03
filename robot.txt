@@ -1,0 +1,53 @@
+# pakotoyikama.netlify.app robots.txt
+
+# Tüm robotlara izin ver
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /service.html
+Allow: /contact.html
+Allow: /img/
+Allow: /css/
+Allow: /js/
+Allow: /lib/
+
+# Özel dosyaları engelle
+Disallow: /mail/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+
+# Medya dosyalarına izin ver
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.svg$
+
+# Crawl gecikmesi (saniye)
+Crawl-delay: 10
+
+# Site haritası
+Sitemap: https://pakotoyikama.netlify.app/sitemap.xml
+
+# Özel arama motoru yönergeleri
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /img/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.svg$
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
